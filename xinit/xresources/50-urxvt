@@ -1,0 +1,67 @@
+!! URxvt Settings
+
+! set window properties
+URxvt.title: Terminal
+URxvt.iconName: Terminal
+URxvt.iconFile: /usr/share/icons/Paper/32x32/apps/utilities-terminal.png
+
+! set $TERM
+URxvt.termName: screen-256color
+
+! set as a login shell
+URxvt.loginShell: true
+
+! scroll behavior
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+URxvt.jumpScroll: false
+URxvt.skipScroll: true
+URxvt.mouseWheelScrollPage: false
+
+! disable the scrollback buffer for the secondary screen
+URxvt.secondaryScreen: true
+URxvt.secondaryScroll: false
+
+! scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.scrollBar_right: true
+URxvt.transpscrollbar: true
+URxvt.scrollBar_floating: true
+URxvt.scrollColor: grey
+URxvt.troughColor: black
+URxvt.thickness: 2
+URxvt.scrollBar_align: centre
+
+! fade out unfocused windows
+URxvt.fading: 30
+URxvt.fadeColor: black
+
+! fonts
+URxvt.font: xft:TerminessTTF\ Nerd\ Font\ Mono:size=12,xft:NanumGothicCoding:size=12
+URxvt.boldFont: xft:TerminessTTF\ Nerd\ Font\ Mono:bold:size=12,xft:NanumGothicCoding:bold:size=12
+URxvt.italicFont: xft:TerminessTTF\ Nerd\ Font\ Mono:italic:size=12,xft:NanumGothicCoding:italic:size=12
+URxvt.boldItalicFont: xft:TerminessTTF\ Nerd\ Font\ Mono:bold:italic:size=12,xft:NanumGothicCoding:bold:italic:size=12
+
+! letter spacing
+URxvt.lineSpace: 0
+
+! rely on what the fonts provide
+URxvt.skipBuiltinGlyphs: true
+
+! disable perl extensions
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
+! bell
+URxvt.mapAlert: false
+URxvt.urgentOnBell: true
+URxvt.visualBell: false
+
+! save lines
+URxvt.saveLines: 0
+
+! keybindings
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~

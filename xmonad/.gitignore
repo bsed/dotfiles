@@ -1,0 +1,6 @@
+.stack-work
+*.hi
+*.o
+*.errors
+xmonad-*-*
+bin
